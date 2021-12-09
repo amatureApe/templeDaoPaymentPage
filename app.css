@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #232121;
+  color: #95613F;
+  font-family: 'Lora', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .header-text {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #BD7B4F, #95613F);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 30px;
+  line-height: 30px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+.button:hover {
+  box-shadow: rgba(236, 236, 236, 0.685) 0 3px 8px;
+}
+
+header .logo {
+  margin: 20px;
+}
+
+header .logo img {
+  height: 150px;
+}
+
+header .connect-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 150px;
+  margin: 20px;
+}
+
+.connect-button button {
+  width: 100px;
+}
+
+.balance-claim-container {
+  display: flex;
+  justify-content: center;
+}
+
+.balance-claim-container .available-balance-text {
+  margin: 10px;
+}
+
+.balance-claim-container .available-balance {
+  margin: 10px;
+}
+
+.balance-claim-container .claim-button {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.balance-claim-container .claim-button button {
+  width: 100px;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-container .banner {
+  width: 400px;
+}
+
+.main-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-image-container img{
+  height: 350px;
+}
